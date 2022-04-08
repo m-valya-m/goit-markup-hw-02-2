@@ -1,0 +1,143 @@
+:root {
+  --black: rgba(33, 33, 33, 1);
+  --blue: rgba(33, 150, 243, 1);
+  --gray: rgba(117, 117, 117, 1);
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--black);
+}
+.logo-blue {
+  color: var(--blue);
+}
+.logo-white {
+  color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+.site-nav a {
+  color: var(--black);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: rgba(33, 150, 243, 1);
+}
+.auth-nav a {
+  color: rgba(117, 117, 117, 1);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: rgba(33, 150, 243, 1);
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.bg {
+  background-color: #2f303a;
+}
+.btn {
+  color: rgba(255, 255, 255, 1);
+  background-color: var(--blue);
+  border: none;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+.btn-portfolio {
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black);
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  font-family: "Roboto";
+  font-style: normal;
+  border: none;
+  color: var(--blue);
+
+  border: none;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: #ffffff;
+  background: var(--blue);
+}
+.list h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.list p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.do {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.command h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.command p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.adress {
+  color: #ffffff;
+}
