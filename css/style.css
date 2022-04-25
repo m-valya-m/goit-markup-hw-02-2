@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
 }
 :root {
   --black: rgba(33, 33, 33, 1);
@@ -8,7 +8,6 @@ body {
 }
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -63,9 +62,6 @@ ul {
   height: 21px;
   left: 215px;
   top: 2238px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -111,8 +107,6 @@ h1 {
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-  font-family: "Roboto";
-  font-style: normal;
   border: none;
   color: var(--blue);
   border: none;
@@ -139,15 +133,12 @@ h1 {
   color: #212121;
 }
 .list p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .do {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -156,8 +147,6 @@ h1 {
   color: #212121;
 }
 .command h3 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -165,9 +154,6 @@ h1 {
   color: #212121;
 }
 .command p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -182,7 +168,6 @@ h1 {
   height: 36px;
 }
 .desc p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: var(--gray);
