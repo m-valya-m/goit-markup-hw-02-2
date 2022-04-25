@@ -1,6 +1,5 @@
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", "Roboto", sans-serif;
 }
 :root {
   --black: rgba(33, 33, 33, 1);
@@ -194,7 +193,7 @@ h1 {
   color: #ffffff;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Raleway"; 
   src: url("../fonts/Raleway/Raleway-VariableFont_wght.ttf") format("truetype"); 
   src: url("../fonts/Raleway/Raleway-VariableFont_wght.ttf") format("truetype"); 
@@ -209,4 +208,4 @@ h1 {
     src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
-    } 
+    }  */
