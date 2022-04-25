@@ -26,6 +26,15 @@ body {
 ul {
   list-style: none;
 }
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
 .site-nav a {
   color: var(--black);
   font-weight: 500;
@@ -49,6 +58,19 @@ ul {
 .auth-nav a:hover,
 .auth-nav a:focus {
   color: rgba(33, 150, 243, 1);
+}
+.auth-nav li {
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2238px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .line {
   border: 1px solid #ececec;
