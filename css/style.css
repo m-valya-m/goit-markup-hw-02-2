@@ -96,6 +96,7 @@ h1 {
   font-size: 16px;
   line-height: 30px;
   cursor: pointer;
+  font-family: inherit;
 }
 .btn-portfolio {
   border: none;
@@ -104,6 +105,7 @@ h1 {
   line-height: 26px;
   color: var(--black);
   cursor: pointer;
+  font-family: inherit;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
@@ -176,4 +178,5 @@ h1 {
 }
 .adress {
   color: #ffffff;
+  font-style: normal;
 }
