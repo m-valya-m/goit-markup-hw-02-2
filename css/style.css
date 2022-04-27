@@ -4,7 +4,12 @@ body {
 :root {
   --black: rgba(33, 33, 33, 1);
   --blue: rgba(33, 150, 243, 1);
-  --gray: rgba(117, 117, 117, 1);
+  --gray: rgba(117, 117, 117, 0.6);
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo {
   font-family: "Raleway";
@@ -46,12 +51,13 @@ ul {
   color: rgba(33, 150, 243, 1);
 }
 .auth-nav a {
-  color: rgba(117, 117, 117, 1);
+  color: #757575;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .auth-nav a:hover,
 .auth-nav a:focus {
@@ -97,6 +103,7 @@ h1 {
   line-height: 30px;
   cursor: pointer;
   font-family: inherit;
+  padding-bottom: 200px;
 }
 .btn-portfolio {
   border: none;
@@ -173,10 +180,7 @@ h1 {
   font-size: 16px;
   line-height: 30px;
   color: var(--gray);
-  width: 322px;
-  height: 30px;
 }
 .adress {
   color: #ffffff;
-  font-style: normal;
 }
